@@ -1,5 +1,0 @@
-npm init -y
-npm add -D vitepress
-npm run docs:dev
-npm run docs:build
-npm run docs:preview
