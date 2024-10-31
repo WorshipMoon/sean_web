@@ -1,15 +1,6 @@
 name: sean_web
 
 on: push
-  # 在针对 `main` 分支的推送上运行。如果你
-  # 使用 `master` 分支作为默认分支，请将其更改为 `master`
-  # push:
-  #   branches: [main]
-
-  # 允许你从 Actions 选项卡手动运行此工作流程
-  # workflow_dispatch:
-
-# 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
 permissions:
   contents: write
   # contents: read
@@ -34,18 +25,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm # 或 pnpm / yarn
+          cache: npm
       - name: 安装依赖并打包
         run: |
           npm ci
           npm run docs:build
-      # - name: 上载代码
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: .vitepress/dist
       - name: 编译代码到一个新的分支
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # 目标分支
-          folder: .vitepress/dist # 构建输出目录
+          folder: docs/.vitepress/dist # 源目录
 

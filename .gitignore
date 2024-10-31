@@ -40,6 +40,7 @@ next-env.d.ts
 /_clash
 
 # old
-*.old.ts*
+*.old
+*.old
 
 rav.yaml
