@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/sean_web/',
+  // base: '/sean_web/',
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
