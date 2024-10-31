@@ -39,8 +39,7 @@ next-env.d.ts
 /.history
 /_clash
 
-# old
+# 
 *.old
-*.old
-
 rav.yaml
+/docs/.vitepress/**/*
