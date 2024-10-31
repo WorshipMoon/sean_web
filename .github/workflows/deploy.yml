@@ -21,15 +21,22 @@ jobs:
       #   with:
       #     version: 9
       # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
+      
       - name: 设置Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
+
       - name: 安装依赖并打包
         run: |
           npm ci
           npm run docs:build
+
+      - name: 复制 CNAME 文件到生成的静态文件目录
+        run: |
+          cp CNAME docs/.vitepress/dist/CNAME
+
       - name: 编译代码到一个新的分支
         uses: JamesIves/github-pages-deploy-action@v4
         with:
