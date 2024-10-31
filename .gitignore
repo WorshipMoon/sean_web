@@ -42,5 +42,4 @@ next-env.d.ts
 # old
 *.old.ts*
 
-# vitepress
-/.vitepress
+rav.yaml
