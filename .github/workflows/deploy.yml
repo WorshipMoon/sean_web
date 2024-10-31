@@ -54,8 +54,8 @@ jobs:
     #   with:
     #     path: .vitepress/dist
     - name: 编译代码到一个新的分支
-    uses: JamesIves/github-pages-deploy-action@v4
-    with:
-      branch: gh-pages # 目标分支
-      folder: .vitepress/dist # 构建输出目录
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages # 目标分支
+        folder: .vitepress/dist # 构建输出目录
 
