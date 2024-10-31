@@ -28,33 +28,34 @@ jobs:
   # 构建工作
   npm-build:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: 查看项目
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
-      # - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消此区域注释
-      #   with:
-      #     version: 9
-      # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
-      - name: 设置Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm # 或 pnpm / yarn
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: 安装依赖
-        run: |
-          npm ci # 或 pnpm install / yarn install / bun install
-          npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
-      # - name: 上载代码
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: .vitepress/dist
-      - name 编译代码到一个新的分支
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: 查看项目
+      uses: actions/checkout@v4
       with:
-        branch: gh-pages # 目标分支
-        folder: .vitepress/dist # 构建输出目录
+        fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+    # - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消此区域注释
+    #   with:
+    #     version: 9
+    # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
+    - name: 设置Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: npm # 或 pnpm / yarn
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    - name: 安装依赖
+      run: |
+        npm ci # 或 pnpm install / yarn install / bun install
+        npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+    # - name: 上载代码
+    #   uses: actions/upload-pages-artifact@v3
+    #   with:
+    #     path: .vitepress/dist
+    - name 编译代码到一个新的分支
+    uses: JamesIves/github-pages-deploy-action@v4
+    with:
+      branch: gh-pages # 目标分支
+      folder: .vitepress/dist # 构建输出目录
 
