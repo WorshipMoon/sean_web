@@ -43,3 +43,4 @@ next-env.d.ts
 *.old
 rav.yaml
 /docs/.vitepress/**/*
+*.code-workspace

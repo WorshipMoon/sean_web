@@ -3,9 +3,6 @@ name: sean_web
 on: push
 permissions:
   contents: write
-  # contents: read
-  # pages: write
-  # id-token: write
 
 jobs:
   # 构建工作
@@ -13,15 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 查看项目
+      - name: 获取分支
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
-      # - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消此区域注释
-      #   with:
-      #     version: 9
-      # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
-      
+
       - name: 设置Node
         uses: actions/setup-node@v4
         with:
@@ -43,3 +36,25 @@ jobs:
           branch: gh-pages # 目标分支
           folder: docs/.vitepress/dist # 源目录
 
+  # 分发到另一个服务器
+  deploy-to-server:
+    needs: npm-build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 获取分支
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: gh-pages # 切换到 gh-pages 分支
+
+      - name: 部署到服务器
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /opt/1panel/apps/openresty/openresty/www/sites/sunling729.top/index
+            rm -rf *
+            cp -r docs/.vitepress/dist/* .
