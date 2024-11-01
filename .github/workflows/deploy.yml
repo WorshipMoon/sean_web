@@ -57,4 +57,4 @@ jobs:
           script: |
             cd /opt/1panel/apps/openresty/openresty/www/sites/sunling729.top/index
             rm -rf *
-            cp -r docs/.vitepress/dist/* .
+            cp -r /* .
