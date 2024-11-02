@@ -3,8 +3,9 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: '/sean_web/',
-  title: "孙凌的博客",
-  description: "何为势",
+  title: "Sean何为势官网",
+  description:
+    "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库",
   head: [
     [
       "meta",
@@ -17,6 +18,9 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
