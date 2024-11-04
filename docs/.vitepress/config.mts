@@ -25,7 +25,15 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Examples", link: "/Examples/markdown-examples" },
-      { text: "About", link: "/about" },
+      // { text: "About", link: "/about" },
+      {
+        text: 'About',
+        items: [
+          { text: '业务介绍', link: '/about/business' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      }
     ],
 
     sidebar: {
@@ -34,8 +42,8 @@ export default defineConfig({
         {
           text: "Examples",
           items: [
-            { text: "Markdown Examples", link: "/markdown-examples" },
-            { text: "Runtime API Examples", link: "/api-examples" },
+            { text: "Markdown Examples", link: "/Examples/markdown-examples" },
+            { text: "Runtime API Examples", link: "/Examples/api-examples" },
           ],
         },
       ],
