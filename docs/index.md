@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Sean何为势"
+  name: "你好，我是Sean"
   text: "数字游民 | 独立开发者"
   tagline: 用技术做好的产品
   # actions:
@@ -21,3 +21,9 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->
+
+<style module>
+
+</style>
