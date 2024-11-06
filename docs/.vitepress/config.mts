@@ -21,19 +21,20 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+    outline: "deep",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/Examples/markdown-examples" },
-      // { text: "About", link: "/about" },
+      // { text: "Examples", link: "/Examples/markdown-examples" },
+      // { text: "KnowledgeBase", link: "/CICD" },
       {
-        text: 'About',
-        items: [
-          { text: '业务介绍', link: '/about/business' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      }
+        text: "相关阅读",
+        items: [{ text: "运维", link: "/KnowledgeBase/Ops/CICD" }],
+      },
+      {
+        text: "技术服务",
+        items: [{ text: "业务介绍", link: "/about/business" }],
+      },
     ],
 
     sidebar: {
@@ -41,18 +42,27 @@ export default defineConfig({
       "/Examples/": [
         {
           text: "Examples",
+          collapsed: false,
           items: [
             { text: "Markdown Examples", link: "/Examples/markdown-examples" },
             { text: "Runtime API Examples", link: "/Examples/api-examples" },
           ],
         },
       ],
+      "/KnowledgeBase/": [
+        {
+          text: "运维",
+          collapsed: false,
+          items: [{ text: "CICD", link: "/KnowledgeBase/Ops/CICD" }],
+        },
+      ],
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/WorshipMoon/sean_web" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
+    ],
     footer: {
       message: "",
-      copyright:
-        `<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021059978号-1</a> Copyright © ${new Date().getFullYear()} - Sean何为势`,
+      copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021059978号-1</a> Copyright © ${new Date().getFullYear()} - Sean何为势`,
     },
   },
 });
