@@ -26,11 +26,11 @@ jobs:
           npm ci
           npm run docs:build
 
-      - name: 复制 CNAME 文件到生成的静态文件目录
-        run: |
-          cp CNAME docs/.vitepress/dist/CNAME
+      # - name: 复制 CNAME 文件到生成的静态文件目录
+      #   run: |
+      #     cp CNAME docs/.vitepress/dist/CNAME
 
-      - name: 编译代码到一个新的分支
+      - name: 编译代码到另一个分支
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # 目标分支

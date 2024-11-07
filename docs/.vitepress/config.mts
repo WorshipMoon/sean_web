@@ -7,6 +7,16 @@ export default defineConfig({
   description:
     "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库",
   head: [
+    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+    [
+      "link",
+      {
+        rel: "alternate icon",
+        href: "/favicon.ico",
+        type: "image/png",
+        sizes: "16x16",
+      },
+    ],
     [
       "meta",
       {

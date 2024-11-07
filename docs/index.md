@@ -3,6 +3,9 @@
 layout: home
 
 hero:
+  image:
+    src: /logo.svg
+    alt: Sean何为势
   name: "你好，我是Sean"
   text: "数字游民 | 独立开发者"
   tagline: 用技术做好的产品

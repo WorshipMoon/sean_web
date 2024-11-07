@@ -20,8 +20,19 @@ table {
 .VPHero .image-container:hover .image-bg {
   opacity: 0.2;
 }
-
-
+.VPHero .image-src {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 192px;
+  max-height: 192px;
+  transform: translate(-50%, -50%);
+  z-index: 26;
+}
+.VPHero .image-src:hover {
+  transform: translate(-50%, -50%) rotate(666turn);
+  transition: transform 59s 0.1s cubic-bezier(0.3, 0, 0.8, 1);
+}
 /**
  * VitePress: Custom fix
  * -------------------------------------------------------------------------- */
@@ -53,7 +64,6 @@ table {
   transition: color 0.25s;
 }
 
-
 /* VitePress Search */
 .VPLocalSearchBox .result {
   --vp-c-bg-search-result: var(--vp-c-bg);
@@ -65,10 +75,16 @@ table {
   --vp-c-bg-search-result: var(--vp-c-bg-soft) !important;
 }
 .VPLocalSearchBox .result .excerpt-gradient-top {
-  background: linear-gradient(var(--vp-c-bg-search-result),transparent) !important;
+  background: linear-gradient(
+    var(--vp-c-bg-search-result),
+    transparent
+  ) !important;
 }
 .VPLocalSearchBox .result .excerpt-gradient-bottom {
-  background: linear-gradient(transparent,var(--vp-c-bg-search-result)) !important;
+  background: linear-gradient(
+    transparent,
+    var(--vp-c-bg-search-result)
+  ) !important;
 }
 .VPLocalSearchBox .title-icon {
   display: none;
