@@ -25,6 +25,8 @@ export default defineConfig({
           "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库",
       },
     ],
+    ['meta', { name: 'wechat-title', content: '微信分享标题' }],
+    ['meta', { name: 'wechat-image', content: '/favicon.svg' }]
   ],
 
   themeConfig: {
