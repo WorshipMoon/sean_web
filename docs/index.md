@@ -23,7 +23,3 @@ hero:
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->
-
-<style module>
-
-</style>
