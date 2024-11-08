@@ -1,4 +1,7 @@
-import { defineConfig } from "vitepress";
+import { createContentLoader, defineConfig } from "vitepress";
+import { SitemapStream } from "sitemap";
+import { createWriteStream } from "node:fs";
+import { resolve } from "node:path";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -25,8 +28,8 @@ export default defineConfig({
           "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库",
       },
     ],
-    ['meta', { name: 'wechat-title', content: '微信分享标题' }],
-    ['meta', { name: 'wechat-image', content: '/favicon.svg' }]
+    ["meta", { name: "wechat-title", content: "微信分享标题" }],
+    ["meta", { name: "wechat-image", content: "/favicon.svg" }],
   ],
 
   themeConfig: {
@@ -76,5 +79,25 @@ export default defineConfig({
       message: "",
       copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021059978号-1</a> Copyright © ${new Date().getFullYear()} - Sean何为势`,
     },
+  },
+  lastUpdated: true,
+  buildEnd: async ({ outDir }) => {
+    const sitemap = new SitemapStream({ hostname: "https://sunling729.top" });
+    const pages = await createContentLoader("**/*.md").load();
+    const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
+
+    sitemap.pipe(writeStream);
+    pages.forEach((page) =>
+      sitemap.write(
+        page.url
+          // Strip `index.html` from URL
+          .replace(/index.html$/g, "")
+          // Optional: if Markdown files are located in a subfolder
+          .replace(/^\/docs/, "")
+      )
+    );
+    sitemap.end();
+
+    await new Promise((r) => writeStream.on("finish", r));
   },
 });
