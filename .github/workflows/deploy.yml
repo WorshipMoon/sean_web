@@ -8,9 +8,8 @@ jobs:
   # 构建工作
   npm-build:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: 获取分支
+      - name: checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
@@ -36,18 +35,17 @@ jobs:
           branch: gh-pages # 目标分支
           folder: docs/.vitepress/dist # 源目录
 
-  # 分发到另一个服务器
+
   deploy-to-server:
     needs: npm-build
     runs-on: ubuntu-latest
 
     steps:
-      - name: 获取分支
+      - name: checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: gh-pages # 切换到 gh-pages 分支
-
+          ref: gh-pages
       - name: 部署到服务器
         uses: appleboy/scp-action@master
         with:
