@@ -68,7 +68,13 @@ export default defineConfig({
         {
           text: "运维",
           collapsed: false,
-          items: [{ text: "CICD", link: "/KnowledgeBase/Ops/CICD" }],
+          items: [
+            { text: "CICD", link: "/KnowledgeBase/Ops/CICD" },
+            {
+              text: "Ubuntu扩展分区",
+              link: "/KnowledgeBase/Ops/ubuntu-partition",
+            },
+          ],
         },
       ],
     },
