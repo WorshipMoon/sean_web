@@ -28,8 +28,6 @@ export default defineConfig({
           "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库",
       },
     ],
-    ["meta", { name: "wechat-title", content: "微信分享标题" }],
-    ["meta", { name: "wechat-image", content: "/favicon.svg" }],
   ],
 
   themeConfig: {
@@ -45,6 +43,10 @@ export default defineConfig({
       {
         text: "相关阅读",
         items: [{ text: "运维", link: "/KnowledgeBase/Ops/CICD" }],
+      },
+      {
+        text: "浅谈浅见",
+        items: [{ text: "看山是山", link: "/CasualTalk/看山是山" }],
       },
       {
         text: "技术服务",
@@ -77,6 +79,7 @@ export default defineConfig({
           ],
         },
       ],
+      "/CasualTalk/": [{ text: "看山是山", link: "/CasualTalk/看山是山" }],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
