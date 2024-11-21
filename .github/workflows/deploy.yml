@@ -1,8 +1,10 @@
 name: sean_web
 
-on: push
-permissions:
-  contents: write
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feidalu
 
 jobs:
   # 构建工作
