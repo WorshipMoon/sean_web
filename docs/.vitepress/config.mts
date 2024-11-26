@@ -80,6 +80,7 @@ export default defineConfig({
         },
       ],
       "/CasualTalk/": [{ text: "看山是山", link: "/CasualTalk/看山是山" }],
+      // "/vpn/": [{ text: "vpn", link: "/vpn/index" }],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
@@ -91,7 +92,7 @@ export default defineConfig({
   },
   lastUpdated: true,
   buildEnd: async ({ outDir }) => {
-    const sitemap = new SitemapStream({ hostname: "https://sunling729.top" });
+    const sitemap = new SitemapStream({ hostname: "https://amusi755.com" });
     const pages = await createContentLoader("**/*.md").load();
     const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
 
