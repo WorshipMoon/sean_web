@@ -84,10 +84,10 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
     ],
-    footer: {
-      message: "",
-      copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021059978号-1</a> Copyright © ${new Date().getFullYear()} - Sean何为势`,
-    },
+    // footer: {
+    //   message: "",
+    //   copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021059978号-1</a> Copyright © ${new Date().getFullYear()} - Sean何为势`,
+    // },
   },
   lastUpdated: true,
   buildEnd: async ({ outDir }) => {
