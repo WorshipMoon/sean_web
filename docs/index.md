@@ -23,6 +23,7 @@ hero:
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#     link: /api-examples
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->
