@@ -1,5 +1,5 @@
 ---
-title: Django 使用gitaction构建 dokcer镜像, 并发布到github, dockerhub, 阿里云镜像
+title: 使用gitaction构建 dokcer镜像, 并发布到github, dockerhub, 阿里云镜像
 ---
 
 # Django 使用gitaction构建 dokcer镜像, 并发布到github, dockerhub, 阿里云镜像
