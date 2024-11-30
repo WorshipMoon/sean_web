@@ -19,8 +19,12 @@ hero:
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 浅谈浅见
+    details: 人最大的敌人是自己
+    link: /CasualTalk/看山是山
+  - title: 运维
+    details: 运维相关
+    link: /KnowledgeBase/Ops/CICD
   - title: 魔法上网
     details: 之前魔法上网点这
     link: vpn/index
