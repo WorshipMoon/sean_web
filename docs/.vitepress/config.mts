@@ -76,6 +76,10 @@ export default defineConfig({
               text: "Ubuntu扩展分区",
               link: "/KnowledgeBase/Ops/ubuntu-partition",
             },
+            {
+              text: "Django 使用gitaction构建 dokcer镜像",
+              link: "/KnowledgeBase/Ops/django-docker",
+            },
           ],
         },
       ],

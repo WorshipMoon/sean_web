@@ -4,7 +4,7 @@ title: Ubuntu partition 扩展分区
 
 
 ## Ubuntu 22 扩展分区
-我需要扩展的是 /dev/mapper/ubuntu--vg-ubuntu--lv
+这台vm虚拟机中需要扩展的是 /dev/mapper/ubuntu--vg-ubuntu--lv
 
 一阶段
 1. **扩展物理卷**：

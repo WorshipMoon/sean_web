@@ -16,14 +16,15 @@ hero:
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     link: /api-examples
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 浅谈浅见
+    details: 人最大的敌人是自己
+    link: /CasualTalk/看山是山
+  - title: 运维
+    details: 运维相关
+    link: /KnowledgeBase/Ops/CICD
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->
