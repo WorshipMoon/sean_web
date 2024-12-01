@@ -84,7 +84,10 @@ export default defineConfig({
         },
       ],
       "/CasualTalk/": [{ text: "看山是山", link: "/CasualTalk/看山是山" }],
-      // "/vpn/": [{ text: "vpn", link: "/vpn/index" }],
+      "/vpn/": [
+        { text: "vpn", link: "/vpn/index" },
+        { text: "Telegram", link: "/vpn/telegram" },
+      ],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
