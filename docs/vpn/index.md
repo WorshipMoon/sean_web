@@ -18,9 +18,9 @@ title: vpn，梯子, 魔法上网
 - 点击连通性测试可以测试链接速度（你的网络连接到节点的速度）
 - 点击订阅名称上小刷新按钮可以刷新订阅
 #### 安卓手机
-1. 下载clash Meta for android
-    
-    飞书 Docs Link: https://ja0209yv4sj.feishu.cn/wiki/MwlewTQRhigayskBubjcNUlJnyh 密码: 25351f#9
+1. 下载地址
+
+    Docs Link: https://ja0209yv4sj.feishu.cn/wiki/MwlewTQRhigayskBubjcNUlJnyh 密码: 25351f#9
 2. 
 <img src="/安卓clash1.jpg" alt="微信名片" style="zoom:50%;" />
 <img src="/安卓clash2.jpg" alt="微信名片" style="zoom:50%;" />
@@ -33,9 +33,15 @@ title: vpn，梯子, 魔法上网
 <img src="/安卓clash7.jpg" alt="微信名片" style="zoom:30%;" />
 
 #### windows
+1. 下载地址
+
+    Docs Link: https://ja0209yv4sj.feishu.cn/wiki/MwlewTQRhigayskBubjcNUlJnyh 密码: 25351f#9
 [说明地址](https://clashcn.com/clash-verge "target=_blank")
 
 #### macOS
+1. 下载地址
+
+    Docs Link: https://ja0209yv4sj.feishu.cn/wiki/MwlewTQRhigayskBubjcNUlJnyh 密码: 25351f#9
 [说明地址](https://clashcn.com/clash-x "target=_blank")
 
 
