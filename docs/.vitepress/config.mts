@@ -42,7 +42,10 @@ export default defineConfig({
       // { text: "KnowledgeBase", link: "/CICD" },
       {
         text: "相关阅读",
-        items: [{ text: "运维", link: "/KnowledgeBase/Ops/CICD" }],
+        items: [
+          { text: "运维", link: "/KnowledgeBase/Ops/CICD" },
+          { text: "UI", link: "/KnowledgeBase/UI/miev-nav" },
+        ],
       },
       {
         text: "浅谈浅见",
@@ -66,7 +69,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/KnowledgeBase/": [
+      "/KnowledgeBase/Ops/": [
         {
           text: "运维",
           collapsed: false,
@@ -80,6 +83,16 @@ export default defineConfig({
               text: "Django 使用gitaction构建 dokcer镜像",
               link: "/KnowledgeBase/Ops/django-docker",
             },
+          ],
+        },
+      ],
+      "/KnowledgeBase/UI/": [
+        {
+          text: "UI",
+          collapsed: false,
+          items: [
+            { text: "仿小米汽车网站导航", link: "/KnowledgeBase/UI/miev-nav" },
+           
           ],
         },
       ],
