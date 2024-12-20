@@ -42,6 +42,6 @@ next-env.d.ts
 # 
 *.old
 rav.yaml
-/docs/.vitepress/cache/
-/docs/.vitepress/dist/
+/docs/.vitepress/cache
+/docs/.vitepress/dist
 *.code-workspace
