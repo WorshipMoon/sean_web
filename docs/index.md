@@ -25,6 +25,9 @@ features:
   - title: 运维
     details: 运维相关
     link: /KnowledgeBase/Ops/CICD
+  - title: UI
+    details: 一些UI片段
+    link: /KnowledgeBase/UI/miev-nav.md
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->
