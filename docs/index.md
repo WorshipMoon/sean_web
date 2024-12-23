@@ -28,6 +28,9 @@ features:
   - title: 魔法上网
     details: 之前魔法上网点这
     link: vpn/index
+  - title: UI
+    details: 一些UI片段
+    link: /KnowledgeBase/UI/miev-nav.md
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->
