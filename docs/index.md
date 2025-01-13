@@ -18,7 +18,7 @@ hero:
   #     link: /api-examples
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 我可能永远不知道第一个该放什么
   - title: 浅谈浅见
     details: 人最大的敌人是自己
     link: /CasualTalk/看山是山
@@ -31,6 +31,9 @@ features:
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md
+  - title: 外贸商家门店采集
+    details: 店名地址电话
+    link: /utility/google-maps-poi.md
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->

@@ -53,7 +53,7 @@ export default defineConfig({
       },
       {
         text: "技术服务",
-        items: [{ text: "业务介绍", link: "/about/business" }],
+        items: [{ text: "业务介绍", link: "/about/business" },{ text: "外贸商家门店采集", link: "/utility/google-maps-poi" }],
       },
     ],
 
