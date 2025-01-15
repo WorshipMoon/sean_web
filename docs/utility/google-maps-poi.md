@@ -3,6 +3,9 @@ title: 外贸商家门店采集 google maps poi
 ---
 # HwsMaps-外贸商家门店采集 google maps poi
 ## 工具名称：HwsMaps
+
+### 系统要求：win10-win11
+
 ## 使用说明
 
 ### 工作流程
