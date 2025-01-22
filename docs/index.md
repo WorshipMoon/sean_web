@@ -31,6 +31,9 @@ features:
   - title: 外贸商家门店采集
     details: 店名地址电话
     link: /utility/google-maps-poi.md
+  - title: Hws文件富搜索
+    details: 基于名称快速定位文件和文件夹，收藏路径快速访问
+    link: /utility/everything-voidtools.md
 ---
 
 <!-- <div class="freestyle" style="color: red; font-size: 24px;">这是个有style的随便写点</div> -->

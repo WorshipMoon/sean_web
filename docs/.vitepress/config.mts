@@ -53,7 +53,11 @@ export default defineConfig({
       },
       {
         text: "技术服务",
-        items: [{ text: "业务介绍", link: "/about/business" },{ text: "外贸商家门店采集", link: "/utility/google-maps-poi" }],
+        items: [
+          { text: "业务介绍", link: "/about/business" },
+          { text: "外贸商家门店采集", link: "/utility/google-maps-poi" },
+          { text: "Hws文件富搜索", link: "/utility/everything-voidtools" },
+        ],
       },
     ],
 
@@ -92,7 +96,6 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "仿小米汽车网站导航", link: "/KnowledgeBase/UI/miev-nav" },
-           
           ],
         },
       ],
