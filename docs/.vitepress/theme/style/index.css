@@ -2,3 +2,11 @@
 @import "./rainbow.css";
 @import "./var.css";
 @import "./overrides.css";
+
+.medium-zoom-overlay {
+  z-index: 20;
+}
+
+.medium-zoom-image {
+  z-index: 21;
+}
