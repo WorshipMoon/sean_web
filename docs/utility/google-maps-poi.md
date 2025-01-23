@@ -30,3 +30,6 @@ title: 外贸商家门店采集 google maps poi
 ## 下载地址
 飞书：
 https://ja0209yv4sj.feishu.cn/wiki/DtISwd2VMihQGekPn6acXW9rnce?from=from_copylink
+
+## 购买永久激活码
+[联系](/about/business.html)
