@@ -11,7 +11,8 @@ title: Hws文件富搜索 everything 基于名称快速定位文件和文件夹�
 ## 介绍：基于名称快速定位文件和文件夹，收藏路径快速访问。
 
 收费少少，很实惠，平常自用的，开发封装后拿出来补贴下家用。
-速度很快，基于Everything64.dll-sdk。
+速度很快，基于 Everything64.dll-sdk。
+
 ### 使用场景
 
 - 要在很多文件中找到想找的文件，基于模糊搜索，基于文件类型
@@ -33,6 +34,15 @@ title: Hws文件富搜索 everything 基于名称快速定位文件和文件夹�
     <img src="/utility/Hws文件富搜索-2.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
   </div>
   <div style="position: relative;">
+    <img src="/utility/Hws文件富搜索-3-1.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
+  </div>
+  <div style="position: relative;">
+    <img src="/utility/Hws文件富搜索-3-2.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
+  </div>
+  <div style="position: relative;">
+    <img src="/utility/Hws文件富搜索-3-3.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
+  </div>
+  <div style="position: relative;">
     <img src="/utility/Hws文件富搜索-1-1.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
   </div>
 <div style="position: relative;">
@@ -47,8 +57,16 @@ title: Hws文件富搜索 everything 基于名称快速定位文件和文件夹�
   <div style="position: relative;">
     <img src="/utility/Hws文件富搜索-1-5.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
   </div>
+  
 </div>
 
 ## 下载地址
+飞书：
+https://ja0209yv4sj.feishu.cn/wiki/Usshwi8RliMpGdkYFF7ckxY0ntc?from=from_copylink
+
+百度网盘:
+通过网盘分享的文件：Hws文件富搜索
+链接: https://pan.baidu.com/s/1UzAA26XfKdPreUE_nJ9v2g?pwd=fjkw 提取码: fjkw
+
 
 ## 其他
