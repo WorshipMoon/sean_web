@@ -27,4 +27,6 @@ title: 外贸商家门店采集 google maps poi
     - 然后将ai给的纬度经度复制到位置，注意纬度是N（在前面），经度是E
 
 
-## [下载地址](https://ja0209yv4sj.feishu.cn/wiki/DtISwd2VMihQGekPn6acXW9rnce?from=from_copylink)
+## 下载地址
+飞书：
+https://ja0209yv4sj.feishu.cn/wiki/DtISwd2VMihQGekPn6acXW9rnce?from=from_copylink
