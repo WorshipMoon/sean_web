@@ -1,6 +1,7 @@
 ---
-title: Vitepress gitactions stiemap
+title: CICD Vitepress gitactions stiemap
 ---
+# CICD Vitepress gitactions stiemap
 ## 简单场景
 
 ### Vitepress gitactions 和 stiemap 配置
