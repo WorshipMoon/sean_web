@@ -5,6 +5,7 @@ import { resolve } from "node:path";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // 获取根目录文件md作为导航
 function getBaseNav(dir: string) {
@@ -89,8 +90,16 @@ function generateSidebar(dir: string, showParent: boolean = true) {
 }
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+// export default defineConfig({
+export default withMermaid({
   // base: '/sean_web/',
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
+  // optionally set additional config for plugin itself with MermaidPluginConfig
+  mermaidPlugin: {
+    class: "mermaid my-class", // set additional css classes for parent container
+  },
   title: "Sean何为势官网",
   description:
     "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库，AI工作流，知识库平台",
@@ -147,6 +156,7 @@ export default defineConfig({
           { text: "业务介绍", link: "/about/business" },
           { text: "外贸商家门店采集", link: "/utility/google-maps-poi" },
           { text: "Hws文件富搜索", link: "/utility/everything-voidtools" },
+          { text: "Hws拓客系统", link: "/utility/何为势拓客系统" },
         ],
       },
     ],

@@ -13,9 +13,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "mermaid": "^11.4.1",
     "sass": "^1.80.6",
     "sitemap": "^8.0.0",
-    "vitepress": "^1.4.2"
+    "vitepress": "^1.4.2",
+    "vitepress-plugin-mermaid": "^2.0.17"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

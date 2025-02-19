@@ -24,7 +24,7 @@ features:
     link: /CasualTalk/看山是山
   - title: 运维
     details: 运维相关
-    link: /KnowledgeBase/Ops/CICD
+    link: /KnowledgeBase/运维/CICD
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md
