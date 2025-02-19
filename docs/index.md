@@ -24,10 +24,14 @@ features:
     link: /CasualTalk/看山是山
   - title: 运维
     details: 运维相关
+<<<<<<< HEAD
     link: /KnowledgeBase/Ops/CICD
   - title: 魔法上网
     details: 之前魔法上网点这
     link: vpn/index
+=======
+    link: /KnowledgeBase/运维/CICD
+>>>>>>> f9eb74a (拓客系统使用文档)
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md
