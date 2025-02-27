@@ -28,10 +28,11 @@ title: Hws文件富搜索 everything 基于名称快速定位文件和文件夹�
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
   <div style="position: relative;">
-    <img src="/utility/Hws文件富搜索-1.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
+    <img src="https://moonworship-file.amusi755.com/621160c3bcc14778afaec1311f54df5028b569103abec74b5bfd06ba80f7aa93.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
   </div>
+
    <div style="position: relative;">
-    <img src="/utility/Hws文件富搜索-2.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
+    <img src="https://moonworship-file.amusi755.com/84871dd0558537a08edc575515f31d8a2f17798a0b26b7c97774a3c989477afe.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
   </div>
   <div style="position: relative;">
     <img src="/utility/Hws文件富搜索-3-1.png" alt="Hws文件富搜索" style="with:100%" data-zoomable class="medium-zoom-image"/>
@@ -78,9 +79,10 @@ https://ja0209yv4sj.feishu.cn/wiki/Usshwi8RliMpGdkYFF7ckxY0ntc?from=from_copylin
 通过网盘分享的文件：Hws 文件富搜索
 链接: https://pan.baidu.com/s/1UzAA26XfKdPreUE_nJ9v2g?pwd=fjkw 提取码: fjkw
 
-
 ## 购买永久激活码
+
 [联系](/about/business.html)
 
-## bilibili工房(可下单)
-[Sean何为势的工房](https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1110973124&from=items_share&msource=items_share)
+## bilibili 工房(可下单)
+
+[Sean 何为势的工房](https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1110973124&from=items_share&msource=items_share)
