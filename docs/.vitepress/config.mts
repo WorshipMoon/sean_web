@@ -144,6 +144,7 @@ export default withMermaid({
         items: [
           { text: "运维", link: "/KnowledgeBase/运维/django-docker" },
           { text: "UI", link: "/KnowledgeBase/UI/miev-nav" },
+          { text: "Apple ID 美区注册", link: "/KnowledgeBase/AppleID美区注册" },
         ],
       },
       {
