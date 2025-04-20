@@ -22,10 +22,8 @@ title: 2025年最新AppleID美区注册教程
 ### 开始注册
 
 1. https://account.apple.com/account# 填写一堆东西，这里注意有个坑
-![](附件/PixPin_2025-04-20_12-01-38%201.png)
 <img src="/AppleId/PixPin_2025-04-20_12-01-38.png" alt="注册" style="with:100%" data-zoomable class="medium-zoom-image"/>
 ``密码除了他本身的规则以外一定要不能包含你的姓名内容，否则你的验证码会一直错误``
-![](附件/坑1.png)
 
 2. 会收两个验证码，再提交
 3. 最后如果出现什么连接失败，其实已经注册完成了，你可以感觉的到，因为最后一个验证码完成提交之后就是ok了
