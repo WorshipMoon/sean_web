@@ -41,8 +41,7 @@ next-env.d.ts
 
 # 
 *.old
-rav.yaml
+# rav.yaml
 /docs/.vitepress/cache
 /docs/.vitepress/dist
 *.code-workspace
-sync-branches.ps1
