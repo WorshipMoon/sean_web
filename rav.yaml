@@ -1,0 +1,12 @@
+git rm G:\node-pro\sean_web\markdown-examples.md
+git rm G:\node-pro\sean_web\docker-image.yml.old
+
+# 直接运行
+.\sync-branches.ps1
+
+# 或者指定提交信息
+.\sync-branches.ps1 -commitMessage "自定义提交信息"
+
+
+#
+npm run docs:dev
