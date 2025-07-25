@@ -29,7 +29,8 @@ title: vpn，梯子, 魔法上网
 
    Docs Link: https://ja0209yv4sj.feishu.cn/wiki/MwlewTQRhigayskBubjcNUlJnyh 密码: 25351f#9
 
-2. <img src="/安卓clash1.jpg" alt="微信名片" style="zoom:50%;" />
+2. 使用说明
+   <img src="/安卓clash1.jpg" alt="微信名片" style="zoom:50%;" />
    <img src="/安卓clash2.jpg" alt="微信名片" style="zoom:50%;" />
    自助获取的订阅输入到url，名称随意，自动更新设置1440
    <img src="/安卓clash3.jpg" alt="微信名片" style="zoom:50%;" />
@@ -46,7 +47,19 @@ title: vpn，梯子, 魔法上网
 
    Docs Link: https://ja0209yv4sj.feishu.cn/wiki/MwlewTQRhigayskBubjcNUlJnyh 密码: 25351f#9
 
-2. [说明地址](https://clashcn.com/clash-verge "target=_blank")
+2. 使用说明
+   <img src="/vpn/x1.png" alt="微信名片" style="zoom:50%;" />
+   <img src="/vpn/x2.png" alt="微信名片" style="zoom:50%;" />
+   <img src="/vpn/x3.png" alt="微信名片" style="zoom:50%;" />
+   ##### 设置自动更新订阅
+   <img src="/vpn/x4.png" alt="微信名片" style="zoom:50%;" />
+   <img src="/vpn/x5.png" alt="微信名片" style="zoom:50%;" />
+
+   ##### 手动更新订阅
+
+   <img src="/vpn/x6.png" alt="微信名片" style="zoom:50%;" />
+   
+   - 使用完之后注意关闭代理再关机，不然下次开机软件会有异常导致上不了网
 
 #### macOS
 
