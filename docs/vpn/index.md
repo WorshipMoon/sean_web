@@ -14,5 +14,6 @@ title: vpn，梯子, 魔法上网
 
 
 #### 其他系统
+<a href="https://superficial-iguanadon-bed.notion.site/ebd/283d3707e4b38099a342f86cde7970ee" target="_blank">其他系统</a>
 
 <iframe src="https://superficial-iguanadon-bed.notion.site/ebd/283d3707e4b38099a342f86cde7970ee" width="100%" height="600" frameborder="0" allowfullscreen />
