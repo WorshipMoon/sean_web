@@ -31,9 +31,9 @@ features:
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md
-  - title: 外贸商家门店采集
-    details: 店名地址电话
-    link: /utility/google-maps-poi.md
+  # - title: 外贸商家门店采集
+  #   details: 店名地址电话
+  #   link: /utility/google-maps-poi.md
   - title: Hws文件富搜索
     details: 基于名称快速定位文件和文件夹，收藏路径快速访问
     link: /utility/everything-voidtools.md
