@@ -134,11 +134,11 @@ export default withMermaid({
       { text: "Home", link: "/" },
       // { text: "Examples", link: "/Examples/markdown-examples" },
       // { text: "KnowledgeBase", link: "/CICD" },
-      {
-        text: "SEO文章专栏",
-        items: getBaseNav("SeoColumn"),
-        // items: [{ text: "SEO文章专栏", link: "/SeoColumn/" }],
-      },
+      // {
+      //   text: "SEO文章专栏",
+      //   items: getBaseNav("SeoColumn"),
+      //   // items: [{ text: "SEO文章专栏", link: "/SeoColumn/" }],
+      // },
       {
         text: "相关阅读",
         items: [
@@ -155,9 +155,9 @@ export default withMermaid({
         text: "技术服务",
         items: [
           { text: "业务介绍", link: "/about/business" },
-          { text: "外贸商家门店采集", link: "/utility/google-maps-poi" },
+          // { text: "外贸商家门店采集", link: "/utility/google-maps-poi" },
           { text: "Hws文件富搜索", link: "/utility/everything-voidtools" },
-          { text: "Hws拓客系统", link: "/utility/何为势拓客系统" },
+          // { text: "Hws拓客系统", link: "/utility/何为势拓客系统" },
         ],
       },
     ],
