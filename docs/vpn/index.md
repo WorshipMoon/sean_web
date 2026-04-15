@@ -59,3 +59,10 @@ title: vpn，梯子, 魔法上网
 
 
 <!-- <img src="/微信名片.jpg" alt="微信名片" style="zoom:20%; margin-top: 2em;" /> -->
+
+
+## 安卓全球应用下载商店（第三方，如果你方便使用google play）
+
+https://uptodown-android.en.uptodown.com/android
+
+https://apkpure.com/cn/apkpure/com.apkpure.aegon/download/3.20.66?utm_content=1006&icn=aegon&ici=text_home-m&from=text_home-m
