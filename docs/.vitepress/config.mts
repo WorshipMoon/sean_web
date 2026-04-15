@@ -146,6 +146,7 @@ export default withMermaid({
           { text: "UI", link: "/KnowledgeBase/UI/miev-nav" },
           { text: "Apple ID 美区注册", link: "/KnowledgeBase/AppleID美区注册" },
           { text: "安卓TK", link: "/KnowledgeBase/一些工具/tiktok-mod" },
+          { text: "Telegram 相关设置", link: "/vpn/telegram" },
         ],
       },
       {
