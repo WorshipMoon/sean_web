@@ -1,7 +1,33 @@
 // posts.data.mts
 import { createContentLoader } from 'vitepress'
 import { spawnSync } from 'node:child_process'
-import path from 'node:path'
+
+// 将 VitePress URL 转换为相对于 git 根目录的文件路径
+// /vpn/telegram.html  → docs/vpn/telegram.md
+// /vpn/              → docs/vpn/index.md
+function urlToRelativePath(url: string): string {
+  if (url.endsWith('/')) {
+    return 'docs' + url + 'index.md'
+  }
+  return 'docs' + url.replace(/\.html$/, '.md')
+}
+
+// 通过 git log 获取文件最后一次提交的 Unix 时间戳（毫秒）
+function getGitTimestamp(relativePath: string): number {
+  const result = spawnSync(
+    'git',
+    ['log', '-1', '--format=%ct', '--', relativePath],
+    {
+      encoding: 'utf-8',
+      cwd: process.cwd(), // npm run docs:dev / CI 的工作目录，即 git 仓库根目录
+    }
+  )
+  const output = result.stdout?.trim()
+  if (output) {
+    return parseInt(output, 10) * 1000
+  }
+  return 0
+}
 
 export default createContentLoader('**/*.md', {
   includeSrc: false,
@@ -10,39 +36,19 @@ export default createContentLoader('**/*.md', {
   transform(raw) {
     return raw
       .filter(({ url }) => {
-        // 过滤首页和示例页面
-        return url !== '/' && 
-               !url.includes('api-examples') && 
+        return url !== '/' &&
+               !url.includes('api-examples') &&
                !url.includes('markdown-examples')
       })
-      .map(({ url, frontmatter, srcPath }) => {
-        let timestamp = 0
-        if (srcPath) {
-          try {
-            // 使用 spawnSync 直接调用 git，不经过 shell
-            // 避免 Windows cmd.exe 将 %ct 当做环境变量展开导致返回空字符串
-            const result = spawnSync(
-              'git',
-              ['log', '-1', '--format=%ct', '--', srcPath],
-              {
-                encoding: 'utf-8',
-                cwd: path.dirname(srcPath), // 确保在 git 仓库范围内
-              }
-            )
-            const output = result.stdout?.trim()
-            if (output) {
-              timestamp = parseInt(output, 10) * 1000 // 转为毫秒
-            }
-          } catch (e) {
-            timestamp = 0
-          }
-        }
+      .map(({ url, frontmatter }) => {
+        const relativePath = urlToRelativePath(url)
+        const timestamp = getGitTimestamp(relativePath)
 
         return {
-          title: frontmatter.title || url.split('/').pop()?.replace('.html', '') || '无标题',
+          title: frontmatter.title || url.split('/').filter(Boolean).pop()?.replace('.html', '') || '无标题',
           url,
           time: timestamp,
-          dateString: timestamp > 0 
+          dateString: timestamp > 0
             ? new Date(timestamp).toLocaleDateString('zh-CN', {
                 year: 'numeric',
                 month: '2-digit',
@@ -53,7 +59,8 @@ export default createContentLoader('**/*.md', {
             : '近期更新'
         }
       })
-      .sort((a, b) => b.time - a.time) // 严格降序排列
+      .sort((a, b) => b.time - a.time)
       .slice(0, 10)
   }
 })
+
