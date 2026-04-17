@@ -6,6 +6,7 @@ import "./style/index.css";
 let homePageStyle: HTMLStyleElement | undefined;
 import Layout from "./Layout.vue";
 import mediumZoom from "medium-zoom";
+import TodayPosts from "./components/TodayPosts.vue";
 
 export default {
   // extends: DefaultTheme,
@@ -38,7 +39,8 @@ export default {
     },
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    // 注册组件
+    app.component('TodayPosts', TodayPosts)
     if (typeof window === "undefined") return;
 
     watch(
