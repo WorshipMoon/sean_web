@@ -1,6 +1,7 @@
 // posts.data.mts
 import { createContentLoader } from 'vitepress'
-import { execSync } from 'node:child_process'
+import { spawnSync } from 'node:child_process'
+import path from 'node:path'
 
 export default createContentLoader('**/*.md', {
   includeSrc: false,
@@ -18,14 +19,19 @@ export default createContentLoader('**/*.md', {
         let timestamp = 0
         if (srcPath) {
           try {
-            // 使用 git log 获取该文件最后一次提交的时间（Unix 时间戳）
-            // 这在本地和 CI 环境中都准确，不受 git clone 重置 mtime 的影响
-            const result = execSync(
-              `git log -1 --format="%ct" -- "${srcPath}"`,
-              { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }
-            ).trim()
-            if (result) {
-              timestamp = parseInt(result, 10) * 1000 // 转为毫秒
+            // 使用 spawnSync 直接调用 git，不经过 shell
+            // 避免 Windows cmd.exe 将 %ct 当做环境变量展开导致返回空字符串
+            const result = spawnSync(
+              'git',
+              ['log', '-1', '--format=%ct', '--', srcPath],
+              {
+                encoding: 'utf-8',
+                cwd: path.dirname(srcPath), // 确保在 git 仓库范围内
+              }
+            )
+            const output = result.stdout?.trim()
+            if (output) {
+              timestamp = parseInt(output, 10) * 1000 // 转为毫秒
             }
           } catch (e) {
             timestamp = 0
