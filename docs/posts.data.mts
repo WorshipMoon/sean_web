@@ -1,6 +1,6 @@
 // posts.data.mts
 import { createContentLoader } from 'vitepress'
-import fs from 'node:fs'
+import { execSync } from 'node:child_process'
 
 export default createContentLoader('**/*.md', {
   includeSrc: false,
@@ -18,10 +18,15 @@ export default createContentLoader('**/*.md', {
         let timestamp = 0
         if (srcPath) {
           try {
-            // 直接读取文件的最后修改时间 (mtime)
-            // 这不依赖 Git 提交，只要你保存了文件，它就会更新
-            const stat = fs.statSync(srcPath)
-            timestamp = stat.mtime.getTime()
+            // 使用 git log 获取该文件最后一次提交的时间（Unix 时间戳）
+            // 这在本地和 CI 环境中都准确，不受 git clone 重置 mtime 的影响
+            const result = execSync(
+              `git log -1 --format="%ct" -- "${srcPath}"`,
+              { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }
+            ).trim()
+            if (result) {
+              timestamp = parseInt(result, 10) * 1000 // 转为毫秒
+            }
           } catch (e) {
             timestamp = 0
           }
