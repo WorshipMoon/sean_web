@@ -1,40 +1,38 @@
 // posts.data.mts
 import { createContentLoader } from 'vitepress'
-import { execSync } from 'child_process'
 
 export default createContentLoader('**/*.md', {
   includeSrc: false,
+  render: false,
+  excerpt: false,
+  lastUpdated: true, // 【关键！】必须显式设为 true，Data Loader 才会去抓取 Git 时间戳
   transform(raw) {
     return raw
       .filter(({ url }) => {
-        // 排除首页和一些示例页面
-        return url !== '/' && !url.includes('api-examples') && !url.includes('markdown-examples')
+        // 排除首页、示例页、以及可能的 404 页面
+        return url !== '/' && 
+               !url.includes('api-examples') && 
+               !url.includes('markdown-examples') &&
+               url !== '/404.html'
       })
-      .map(({ url, frontmatter, srcPath }) => {
-        let timestamp = 0
-        try {
-          // 通过 git 命令获取文件最后一次提交的 UNIX 时间戳
-          const log = execSync(`git log -1 --format=%at "${srcPath}"`, { encoding: 'utf-8' })
-          timestamp = parseInt(log.trim()) * 1000
-        } catch (e) {
-          // 如果 Git 获取失败，回退到文件系统时间
-          // timestamp = fs.statSync(srcPath).mtime.getTime()
-        }
-
+      .map(({ url, frontmatter, lastUpdated }) => {
+        // 这里的 lastUpdated 就是 VitePress 根据你的 config.mts 逻辑抓取到的毫秒时间戳
         return {
           title: frontmatter.title || url.split('/').pop()?.replace('.html', '') || '无标题',
           url,
-          time: timestamp,
-          dateString: timestamp 
-            ? new Date(timestamp).toLocaleDateString('zh-CN', {
+          time: lastUpdated || 0,
+          dateString: lastUpdated 
+            ? new Date(lastUpdated).toLocaleDateString('zh-CN', {
                 year: 'numeric',
                 month: '2-digit',
-                day: '2-digit'
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit'
               })
             : '近期更新'
         }
       })
-      .sort((a, b) => b.time - a.time) // 按时间倒序排列
+      .sort((a, b) => b.time - a.time) // 按时间戳降序排列
       .slice(0, 10)
   }
 })
