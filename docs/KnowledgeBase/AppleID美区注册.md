@@ -9,26 +9,60 @@ title: 2025年最新AppleID美区注册教程
 	1. slmoon544@outlook.com
 	2. 密码
 2. 一个美国地址，用于手机app store登录的时候完善资料
-	1. 这里地区我选  California（加利福利亚） 地址获取：https://www.meiguodizhi.com/
-		1. 邮编 92083 
-		2. 城市 Vista 
-		3. 街道 3395  Vernon Street 
-		4. 号码 760-639-052123
-3. 美国节点，浏览器开了个隐私窗口直接开始注册
-4. 以上是我的准备，可能有些不是必须的，我是成功登录手机了
+	1. 这里地区我推荐以下免税区，方便以后优惠购买 地址获取：https://www.meiguodizhi.com/
+
+		俄勒冈州 (Oregon, OR)
+		阿拉斯加州 (Alaska, AK)
+		特拉华州 (Delaware, DE)
+		蒙大拿州 (Montana, MT)
+		新罕布什尔州 (New Hampshire, NH)
+		
+		免税原理：只要账单地址在这些免税州，Apple Store 的计费系统便会自动识别并免除消费税。
 
 
 ---
-### 开始注册
+### 注册教程
+推荐油管的一个注册视频（比我的更详细）：https://www.youtube.com/watch?v=urrj6O1UpMU&t=79s
 
-1. https://account.apple.com/account# 填写一堆东西，这里注意有个坑
-<img src="/AppleId/PixPin_2025-04-20_12-01-38.png" alt="注册" style="with:100%" data-zoomable class="medium-zoom-image"/>
-``密码除了他本身的规则以外一定要不能包含你的姓名内容，否则你的验证码会一直错误``
 
-2. 会收两个验证码，再提交
-3. 最后如果出现什么连接失败，其实已经注册完成了，你可以感觉的到，因为最后一个验证码完成提交之后就是ok了
-4. https://support.apple.com/apple-account
-<img src="/AppleId/人工客服支持.png" alt="人工客服支持" style="with:100%" data-zoomable class="medium-zoom-image"/>
+### 注意
+* `` 密码一定要不能包含你的姓名内容，否则你的验证码会一直错误 ``
 
-https://account.apple.com/faq
-https://getsupport.apple.com/solutions/chat/confirmation
+### 找我买
+#### 账号信息
+
+买后发一人独享美国苹果ID，密保资料齐全！
+
+此ID可登录AppStore下载APP，未激活iCloud不能登录设置！
+
+
+
+##### 资料修改
+
+质保期内禁止修改任意资料，否则死号无售后！
+
+
+
+##### 质保售后
+
+质保一天，质保停用换新
+
+遵守下述规则，否则乱搞死号无售后
+
+1、遵守上述资料修改规则
+
+2、禁止共享ID给他人使用
+
+3、禁止在应用商店内退款
+
+4、账号经常使用保持活跃
+
+5、禁止做其他违规的项目
+
+6、务必遵守苹果官方规则
+
+#### 苹果软件更新问题：
+
+你下载与更新需要同一个账户，同一个账户下载的才可更新。
+
+你目前卸载，从新下载就好了

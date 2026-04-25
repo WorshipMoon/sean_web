@@ -146,7 +146,9 @@ export default withMermaid({
           { text: "UI", link: "/KnowledgeBase/UI/miev-nav" },
           { text: "Apple ID 美区注册", link: "/KnowledgeBase/AppleID美区注册" },
           { text: "安卓TK", link: "/KnowledgeBase/一些工具/tiktok-mod" },
-          { text: "Telegram 相关设置", link: "/vpn/telegram" },
+          { text: "Telegram安卓苹果登录注册以及相关设置", link: "/vpn/telegram" },
+          { text: "Facebook防封养号相关设置", link: "/vpn/facebook" },
+          { text: "使用身份验证器（Authenticator）开启 Facebook 双重验证（2FA）", link: "/KnowledgeBase/一些工具/Authenticatorfor2FA" }
         ],
       },
       {
