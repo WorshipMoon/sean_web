@@ -95,6 +95,41 @@ Facebook的审核逻辑是判断你是不是一个**正常的新用户逐渐熟�
 **封号大多源于"心急"**——注册完就加人、一两天就建主页推广、频繁操作到系统弹窗。遵守"像一个真实新用户那样慢慢探索平台"的原则，在各大社交平台其实都通用。
 
 
+### 申诉(中国用户身份)
+```
+Greetings!
+
+I am a user of Facebook from China, and I am writing to you because my Facebook account has recently been blocked, which has caused inconvenience to my daily life and social activities. Through this appeal letter, I hope to gain your understanding and support to unblock my account.
+
+Firstly, I would like to express my sincere apologies for any actions that may have led to the block of my account. I fully recognize the importance of Facebook's community standards, which are designed to maintain a safe, respectful, and positive social environment. I have always been committed to adhering to these standards and respecting every member on the platform.
+
+If I have unknowingly violated any of Facebook's policies or guidelines, I hope to receive your guidance and take the necessary steps to correct these mistakes. Facebook is not only a platform for me to stay in touch with family and friends but also an important channel for me to obtain information and share my life.
+
+I am passionate about the Facebook community and value all the connections I have made on this platform. Therefore, I sincerely request that you review my account status and consider unblocking my account. I promise to be more vigilant in following the community standards when using Facebook in the future and ensure that my actions and content always comply with Facebook's policies.
+
+I greatly appreciate your time in reading my appeal and sincerely look forward to your positive response. I am eager to continue sharing life moments, staying connected with others, and enjoying the乐趣 on Facebook.
+
+Thank you once again for your time and consideration. I await your reply.
+
+Yours sincerely,
+
+[申诉日期]
+
+```
+
+
+申诉模版用这个英文版
+
+appeals@facebook.com
+
+appeals@fb.com
+
+这两个邮箱都可以
+封禁的消息如果没有提示申诉入口就用邮箱
+
+
+
+
 
 <style lang="sass" scoped>
 .udo
