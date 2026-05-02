@@ -14,5 +14,6 @@ https://modsfire.com/K8Vo757GW54J4Vd
 
 
 两个都要安装，通过插件启动主文件即可，不用找我多问哈。
-软件下载视频老是跳转到电报？
-🔘Plugin插件内主页-找到按钮 Download Via Telegram 关闭即可
+
+- 软件下载视频老是跳转到电报？
+    🔘Plugin插件内主页-找到按钮 Download Via Telegram 关闭即可
