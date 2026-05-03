@@ -148,7 +148,8 @@ export default withMermaid({
           { text: "安卓TK", link: "/KnowledgeBase/一些工具/tiktok-mod" },
           { text: "Telegram安卓苹果登录注册以及相关设置", link: "/vpn/telegram" },
           { text: "Facebook防封养号相关设置", link: "/vpn/facebook" },
-          { text: "使用身份验证器（Authenticator）开启 Facebook 双重验证（2FA）", link: "/KnowledgeBase/一些工具/Authenticatorfor2FA" }
+          { text: "使用身份验证器（Authenticator）开启 Facebook 双重验证（2FA）", link: "/KnowledgeBase/一些工具/Authenticatorfor2FA" },
+          { text: "一些工具", link: "/KnowledgeBase/一些工具/tiktok-mod" },
         ],
       },
       {
@@ -188,6 +189,12 @@ export default withMermaid({
       //   },
       // ],
       "/KnowledgeBase/UI/": generateSidebar("KnowledgeBase/UI", false),
+      "/KnowledgeBase/一些工具/": [
+        { text: 'deepseekweb多选删除会话扩展', link: '/KnowledgeBase/一些工具/deepseek-web-delete' },
+        { text: '安卓TK无需拔卡', link: '/KnowledgeBase/一些工具/tiktok-mod' },
+        { text: 'AppleID美区注册', link: '/KnowledgeBase/AppleID美区注册' },
+        { text: '使用身份验证器（Authenticator）开启 Facebook 双重验证（2FA）', link: '/KnowledgeBase/一些工具/Authenticatorfor2FA' },
+      ],
       "/CasualTalk/": generateSidebar("CasualTalk", false),
     },
     socialLinks: [
