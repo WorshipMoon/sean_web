@@ -1,5 +1,5 @@
 ---
-title: deepseekweb多选删除会话扩展
+title: deepseek网页版多选删除会话扩展
 ---
 
 ## 功能：deepseek网页版多选删除会话、快捷搜索会话
