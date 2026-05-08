@@ -19,7 +19,7 @@ title: 梯子
 所有下载内容在链接 [点我](https://fsw.amusi755.com/files/VN/)
 
 ##### Windows10-11安装
-[FlClash-0.8.91-windows-amd64.zip]
+[FlClash-0.8.91-windows-amd64.zip] 压缩包内部运行flclash.exe，不显示后缀名的运行flcalsh
 ##### M 芯片 Mac安装（如何查看什么什么芯片-点击屏幕左上角的 苹果图标-在下拉菜单中选择 “关于本机” (About This Mac)-看到一行叫 “芯片” (Chip)-显示：Apple M1 / M2 / M3 等）
 [FlClash-0.8.91-macos-arm64.dmg]
 ##### Intel 芯片 Mac（如何查看什么什么芯片-点击屏幕左上角的 苹果图标-在下拉菜单中选择 “关于本机” (About This Mac)-看到一行叫 “芯片” (Chip)-显示：Intel Core i5 / i7 / i9 等）
