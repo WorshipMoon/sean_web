@@ -19,13 +19,13 @@ title: 梯子
 所有下载内容在链接 [点我](https://fsw.amusi755.com/files/VN/)
 
 ##### Windows10-11安装
-[FlClash-0.8.91-windows-amd64.zip] 压缩包内部运行flclash.exe，不显示后缀名的运行flcalsh
+[FlClash-0.8.92-windows-amd64.zip] 压缩包内部运行flclash.exe，不显示后缀名的运行flcalsh
 ##### M 芯片 Mac安装（如何查看什么什么芯片-点击屏幕左上角的 苹果图标-在下拉菜单中选择 “关于本机” (About This Mac)-看到一行叫 “芯片” (Chip)-显示：Apple M1 / M2 / M3 等）
-[FlClash-0.8.91-macos-arm64.dmg]
+[FlClash-0.8.92-macos-arm64.dmg]
 ##### Intel 芯片 Mac（如何查看什么什么芯片-点击屏幕左上角的 苹果图标-在下拉菜单中选择 “关于本机” (About This Mac)-看到一行叫 “芯片” (Chip)-显示：Intel Core i5 / i7 / i9 等）
-[FlClash-0.8.91-macos-amd64.dmg]
+[FlClash-0.8.92-macos-amd64.dmg]
 ##### 安卓机安装（安装提示风险解决办法自行百度，基本上都是什么安全防护都在设置里，华为系：设置，然后搜索 增强防护，关掉）
-[FlClash-0.8.91-android-arm64-v8a.apk]
+[FlClash-0.8.92-android-arm64-v8a.apk]
 ##### 苹果手机
 使用外区账号下载 Hiddify(“Hiddify Proxy & VPN”（免费）),或者小火箭（收费），外区账号注册参照 [AppleID美区注册教程](/KnowledgeBase/AppleID美区注册.md)，提供5元付费使用服务
 ##### win7安装
