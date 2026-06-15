@@ -25,9 +25,9 @@ features:
   - title: 运维
     details: 运维相关
     link: /KnowledgeBase/运维/CICD
-  - title: 魔法上网
-    details: 之前魔法上网点这
-    link: vpn/index
+  - title: 网络
+    details: 外卖, AI等一些网络相关问题
+    link: /vpn/ipads
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md

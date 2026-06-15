@@ -196,6 +196,7 @@ export default withMermaid({
         { text: '使用身份验证器（Authenticator）开启 Facebook 双重验证（2FA）', link: '/KnowledgeBase/一些工具/Authenticatorfor2FA' },
       ],
       "/CasualTalk/": generateSidebar("CasualTalk", false),
+      "/vpn/": generateSidebar("vpn", false),
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
