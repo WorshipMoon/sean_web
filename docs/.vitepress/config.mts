@@ -194,6 +194,7 @@ export default withMermaid({
         { text: '安卓TK无需拔卡', link: '/KnowledgeBase/一些工具/tiktok-mod' },
         { text: 'AppleID美区注册', link: '/KnowledgeBase/AppleID美区注册' },
         { text: '使用身份验证器（Authenticator）开启 Facebook 双重验证（2FA）', link: '/KnowledgeBase/一些工具/Authenticatorfor2FA' },
+        { text: '苹果手机注册Facebook全流程', link: '/KnowledgeBase/外贸相关/Facebook_Apple_Personal_Register_Tutorial' },
       ],
       "/CasualTalk/": generateSidebar("CasualTalk", false),
       "/vpn/": generateSidebar("vpn", false),
