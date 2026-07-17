@@ -142,6 +142,7 @@ export default withMermaid({
       {
         text: "相关阅读",
         items: [
+          { text: '外贸和AI结合定制工作流', link: '/KnowledgeBase/外贸相关/ForeignTrade_AI_Integration_Workflow_Plan' },
           { text: "运维", link: "/KnowledgeBase/运维/django-docker" },
           { text: "UI", link: "/KnowledgeBase/UI/miev-nav" },
           { text: "Apple ID 美区注册", link: "/KnowledgeBase/AppleID美区注册" },
