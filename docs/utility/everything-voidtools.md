@@ -81,7 +81,7 @@ https://ja0209yv4sj.feishu.cn/wiki/Usshwi8RliMpGdkYFF7ckxY0ntc?from=from_copylin
 
 ## 购买永久激活码
 
-[联系](/about/business.html)
+[联系](/about/business)
 
 <!-- ## bilibili 工房(可下单)
 
