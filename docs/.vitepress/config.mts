@@ -163,6 +163,7 @@ export default withMermaid({
           { text: "业务介绍", link: "/about/business" },
           // { text: "外贸商家门店采集", link: "/utility/google-maps-poi" },
           { text: "Hws文件富搜索", link: "/utility/everything-voidtools" },
+          { text: "谷歌地图采集导出插件", link: "/utility/谷歌地图采集导出插件" },
           // { text: "Hws拓客系统", link: "/utility/何为势拓客系统" },
         ],
       },
