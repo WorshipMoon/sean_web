@@ -27,7 +27,7 @@ features:
     details: 运维相关
     link: /KnowledgeBase/运维/CICD
   - title: 网络
-    details: 外卖, AI等一些网络相关问题
+    details: 外贸, AI等一些网络相关问题
     link: /vpn/ipads
   - title: UI
     details: 一些UI片段
