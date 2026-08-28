@@ -7,10 +7,10 @@ TK 是一个视频分享平台，用户可以在上面分享自己的视频，�
 - 无需拔卡安卓用
 ## 下载（需要开代理，注意广告哦）
 主文件
-https://modsfire.com/I7p7pwGdxaM32Jf
+https://modsfire.com/4HDS6wv8sjJ995D
 
 插件
-https://modsfire.com/dz2OkYw4cVh2pWz
+https://modsfire.com/08LHywGGcosbc3c
 
 
 两个都要安装，通过插件启动主文件即可，不用找我多问哈。
