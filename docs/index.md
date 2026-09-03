@@ -17,8 +17,9 @@ hero:
   #     text: API Examples
   #     link: /api-examples
 features:
-  - title: Feature A
-    details: 我可能永远不知道第一个该放什么
+  - title: 海外博客地址
+    details: 更多内容
+    link: https://amusi755.com
   - title: 浅谈浅见
     details: 人最大的敌人是自己
     link: /CasualTalk/看山是山
