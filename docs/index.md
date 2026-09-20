@@ -20,6 +20,9 @@ features:
   - title: 海外博客地址
     details: 更多内容
     link: https://amusi755.com
+  - title: 海外媒体账号综合服务
+    details: 海外社交与 AI 账号一站服务
+    link: /SeoColumn/海外媒体账号综合服务
   - title: 浅谈浅见
     details: 人最大的敌人是自己
     link: /CasualTalk/看山是山
