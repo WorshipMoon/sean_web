@@ -20,6 +20,9 @@ features:
   - title: 外贸和AI结合定制工作流
     details: 可以定制，欢迎老板来聊!!!!
     link: /KnowledgeBase/外贸相关/ForeignTrade_AI_Integration_Workflow_Plan
+  - title: 海外媒体账号综合服务
+    details: 海外社交与 AI 账号一站服务
+    link: /SeoColumn/海外媒体账号综合服务
   - title: 浅谈浅见
     details: 人最大的敌人是自己
     link: /CasualTalk/看山是山
