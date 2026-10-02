@@ -35,6 +35,9 @@ features:
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md
+  - title: AI 专栏
+    details: DeepSeek Harness 等 AI 工具与实践
+    link: /AI/DeepSeek-Harness-PC端自行添加插件
   # - title: 外贸商家门店采集
   #   details: 店名地址电话
   #   link: /utility/google-maps-poi.md

@@ -3,10 +3,17 @@
 @import "./var.css";
 @import "./overrides.css";
 
+/* 需高于 VitePress 侧栏 / 顶栏，否则放大后会被盖住 */
 .medium-zoom-overlay {
-  z-index: 20;
+  z-index: 1000;
+  background-color: var(--vp-c-bg) !important;
 }
 
-.medium-zoom-image {
-  z-index: 21;
+/* medium-zoom 会克隆一张同级 img，用兄弟选择器盖住遮罩 */
+.medium-zoom-overlay ~ img.medium-zoom-image {
+  z-index: 1001;
+}
+
+.medium-zoom-image--opened {
+  z-index: 1001;
 }

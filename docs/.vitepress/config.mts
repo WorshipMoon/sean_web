@@ -162,6 +162,10 @@ export default withMermaid({
         ],
       },
       {
+        text: "AI相关",
+        items: getBaseNav("AI"),
+      },
+      {
         text: "浅谈浅见",
         items: getBaseNav("CasualTalk"),
       },
@@ -214,6 +218,7 @@ export default withMermaid({
         { text: '购买的Facebook账号使用教程', link: '/KnowledgeBase/外贸相关/购买的Facebook账号使用教程' }
       ],
       "/CasualTalk/": generateSidebar("CasualTalk", false),
+      "/AI/": generateSidebar("AI", false),
       "/vpn/": generateSidebar("vpn", false),
       "/about/": [
         { text: "业务介绍", link: "/about/business" },
