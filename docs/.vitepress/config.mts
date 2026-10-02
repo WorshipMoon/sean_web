@@ -168,11 +168,17 @@ export default withMermaid({
       {
         text: "技术服务",
         items: [
-          { text: "业务介绍", link: "/about/business" },
           // { text: "外贸商家门店采集", link: "/utility/google-maps-poi" },
           { text: "Hws文件富搜索", link: "/utility/everything-voidtools" },
           { text: "谷歌地图采集导出插件", link: "/utility/谷歌地图采集导出插件" },
           // { text: "Hws拓客系统", link: "/utility/何为势拓客系统" },
+        ],
+      },
+      {
+        text: "关于",
+        items: [
+          { text: "业务介绍", link: "/about/business" },
+          { text: "隐私政策", link: "/about/privacy" },
         ],
       },
     ],
@@ -209,14 +215,19 @@ export default withMermaid({
       ],
       "/CasualTalk/": generateSidebar("CasualTalk", false),
       "/vpn/": generateSidebar("vpn", false),
+      "/about/": [
+        { text: "业务介绍", link: "/about/business" },
+        { text: "隐私政策", link: "/about/privacy" },
+      ],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/WorshipMoon/sean_web" },
     ],
-    // footer: {
-    //   message: "",
-    //   copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021059978号-1</a> Copyright © ${new Date().getFullYear()} - Sean何为势`,
-    // },
+    footer: {
+      message:
+        '<a href="/about/business">关于 / 业务介绍</a> · <a href="/about/privacy">隐私政策</a>',
+      copyright: `Copyright © ${new Date().getFullYear()} Sean何为势`,
+    },
   },
   lastUpdated: true,
   buildEnd: async ({ outDir }) => {
