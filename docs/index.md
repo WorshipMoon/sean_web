@@ -31,7 +31,7 @@ features:
     link: /KnowledgeBase/运维/CICD
   - title: 网络
     details: 外贸, AI等一些网络相关问题
-    link: /vpn/ipads
+    link: /vpn/
   - title: UI
     details: 一些UI片段
     link: /KnowledgeBase/UI/miev-nav.md
