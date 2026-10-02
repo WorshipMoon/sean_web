@@ -30,7 +30,7 @@ title: 梯子
 ##### 安卓机安装（安装提示风险解决办法自行百度，基本上都是什么安全防护都在设置里，华为系：设置，然后搜索 增强防护，关掉）
 [FlClash-0.8.93-android-arm64-v8a.apk]
 ##### 苹果手机
-使用外区账号下载 Hiddify(“Hiddify Proxy & VPN”（免费）)、Clash Mi(免费，https://apps.apple.com/us/app/clash-mi/id6744321968)
+使用外区账号下载 Clash Mi(免费，https://apps.apple.com/us/app/clash-mi/id6744321968)
 
 或者小火箭（收费），外区账号注册参照 [AppleID美区注册教程](/KnowledgeBase/AppleID美区注册.md)，提供5元付费使用服务
 ##### win7安装
