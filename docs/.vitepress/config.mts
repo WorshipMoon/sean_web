@@ -122,6 +122,14 @@ export default withMermaid({
           "Python, Node.js, Vue, React, CI/CD, Web3, 数据挖掘, 智能合约，办公脚本, 私有化仓库，AI工作流，知识库平台",
       },
     ],
+    [
+      "script",
+      {
+        async: "",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7510172448393682",
+        crossorigin: "anonymous",
+      },
+    ],
   ],
 
   themeConfig: {
