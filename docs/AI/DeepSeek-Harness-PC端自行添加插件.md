@@ -5,9 +5,9 @@ description: DeepSeek Harness 桌面版 / PC 端自行安装社区插件教程�
 
 # DeepSeek Harness PC 端如何自行添加插件
 
-## 告诉agent帮你装
+## 一、告诉agent帮你装
 
-## 终端命令安装
+## 二、终端命令安装
 
 1. 先维护终端环境变量
 ![自带终端环境变量安装](./deepseek_env_installation.png){data-zoomable}
