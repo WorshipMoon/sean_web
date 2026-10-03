@@ -12,7 +12,7 @@ description: DeepSeek Harness 桌面版 / PC 端自行安装社区插件教程�
 1. 先维护终端环境变量
 ![自带终端环境变量安装](./deepseek_env_installation.png){data-zoomable}
 
-<img src="./deepseek_env_installation.png" alt="自带终端环境变量安装" style="with:100%" data-zoomable class="medium-zoom-image"/>
+<!-- <img src="./deepseek_env_installation.png" alt="自带终端环境变量安装" style="with:100%" data-zoomable class="medium-zoom-image"/> -->
 
 
 2. 运行终端命令，示例：
